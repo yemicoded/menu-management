@@ -10,7 +10,7 @@ This is a menu management application server. An assignment for Backend (NodeJS)
   - Sub Category: A category can have multiple sub-categories
   - Items: A Subcategory can have multiple items in it
 
-## How do run the project locally
+## How to run the project locally
 
 1. clone the project
 2. remane the `.env.example` in the root directory to `.env`
