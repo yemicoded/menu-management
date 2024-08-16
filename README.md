@@ -2,7 +2,7 @@
 
 This is a menu management application server. An assignment for Backend (NodeJS) Engineering role at Guestara
 
-## Overview:
+## Overview
 
 1. Create a Nodejs backend server for menu management. 
 2. The menu will be divided into 3 parts in the following order:
@@ -12,10 +12,11 @@ This is a menu management application server. An assignment for Backend (NodeJS)
 
 ## How to run the project locally
 
-1. clone the project
-2. remane the `.env.example` in the root directory to `.env`
-3. replace the `MONGO_DB_URL` with a live or local mongodb connection string
-4. run the server using `npm run dev`
+1. clone the project to your local machine
+2. run `npm install` to install all the project dependencies
+3. remane the `.env.example` in the root directory to `.env`
+4. replace the `MONGO_DB_URL` with a live or local mongodb connection string
+5. run the server using `npm run dev`
 
 ## Available Endpoints
 
@@ -47,8 +48,8 @@ This is a menu management application server. An assignment for Backend (NodeJS)
 ## Testing Endpoints
 
 1. Ensure to must have run the project on your local environment on the default port (4002).
-2. Using Postman Desktop, visit [My Postman Workspace for this Project](https://www.postman.com/yemicoded/workspace/menu-management/overview) to test the endpoints.
-3. Change the postman environment to staging environment
+2. Using Postman Desktop, visit [My Postman Workspace for this Project](https://www.postman.com/yemicoded/workspace/menu-management/overview) to fork the collections and test the endpoints.
+3. Change the postman environment to staging environment (The BASE_URL is defined here)
 
 ## Additional Notes
 
