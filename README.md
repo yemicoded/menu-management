@@ -1,42 +1,53 @@
 ## About
 
-This project was created with [express-generator-typescript](https://github.com/seanpmaxwell/express-generator-typescript).
+This is a menu management application server. An assignment for Backend (NodeJS) Engineering role at Guestara
 
+## Overview:
 
-## Available Scripts
+1. Create a Nodejs backend server for menu management. 
+2. The menu will be divided into 3 parts in the following order:
+  - Category
+  - Sub Category: A category can have multiple sub-categories
+  - Items: A Subcategory can have multiple items in it
 
-### `npm run dev`
+## How do run the project locally
 
-Run the server in development mode.
+1. clone the project
+2. remane the `.env.example` in the root directory to `.env`
+3. replace the `MONGO_DB_URL` with a live or local mongodb connection string
+4. run the server using `npm run dev`
 
-### `npm test`
+## Available Endpoints
 
-Run all unit-tests with hot-reloading.
+### CATEGORY
 
-### `npm test -- --testFile="name of test file" (i.e. --testFile=Users).`
+- `CREATE` - Create Category
+- `POST` - Update Category
+- `GET` - Get all Categories
+- `GET` - Get single Category by ID
 
-Run a single unit-test.
+### SUB_CATEGORY
 
-### `npm run test:no-reloading`
+- `CREATE` - Create Sub-Category
+- `POST` - Update Sub-Category
+- `GET` - Get all Sub-Categories
+- `GET` - Get single Sub-Category by ID
 
-Run all unit-tests without hot-reloading.
+### ITEM
 
-### `npm run lint`
+- `CREATE` - Create Item
+- `POST` - Update Item
+- `GET` - Get all Items
+- `GET` - Get single Item by ID
+- `GET` - Get Items by Category
+- `GET` - Get Items by Sub-Category
+- `GET` - Get Items by Category and Sub-Category
+- `GET` - Get Items by search keyword
 
-Check for linting errors.
+## Testing Endpoints
 
-### `npm run build`
-
-Build the project for production.
-
-### `npm start`
-
-Run the production build (Must be built first).
-
-### `npm start -- --env="name of env file" (default is production).`
-
-Run production build with a different env file.
-
+1. Ensure to must have run the project on your local environment.
+2. Using Postman Desktop, visit [My Postman Workspace for this Project](https://www.postman.com/yemicoded/workspace/menu-management/overview) to test the endpoints
 
 ## Additional Notes
 
