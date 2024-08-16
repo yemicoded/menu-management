@@ -46,8 +46,9 @@ This is a menu management application server. An assignment for Backend (NodeJS)
 
 ## Testing Endpoints
 
-1. Ensure to must have run the project on your local environment.
-2. Using Postman Desktop, visit [My Postman Workspace for this Project](https://www.postman.com/yemicoded/workspace/menu-management/overview) to test the endpoints
+1. Ensure to must have run the project on your local environment on the default port (4002).
+2. Using Postman Desktop, visit [My Postman Workspace for this Project](https://www.postman.com/yemicoded/workspace/menu-management/overview) to test the endpoints.
+3. Change the postman environment to staging environment
 
 ## Additional Notes
 
